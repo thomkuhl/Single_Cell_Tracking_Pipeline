@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-track_and_render_v3_7_sticky.py
+track_render_label_overlay.py
 
 Stable ID tracking for Cellpose masks:
   - Pre-assign "prior owner" when overlap is strong (LOCK step) to avoid ID flips.
