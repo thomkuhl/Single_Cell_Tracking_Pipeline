@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Imaging / lab data exclusions
+
+# Raw imaging data
+*.tif
+*.tiff
+*.nd2
+*.lif
+*.czi
+
+
+# Image sequences and frames
+*.png
+*.jpg
+
+
+# Tracking outputs and large results
+*.csv
+*.xlsx
+*.npy
+*.npz
+*.mp4
+*.avi
+*.gif
