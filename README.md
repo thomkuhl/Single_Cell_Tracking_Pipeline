@@ -1,4 +1,4 @@
-# Single_Cell_Tracking_Pipeline
+# Single Cell Tracking Pipeline
 
 This repository contains scripts and notes for running Cellpose-based segmentation and, later on, cell tracking and analysis for single-cell HEK293T (transfected with VPC construct) imaging experiments.
 ---
