@@ -113,8 +113,8 @@ To keep the repository organized, the following layout is recommended:
 ├── tracking/
 │   ├── track_render_label_overlay.py #Contains all tracking and labeling scripts (Hungarian matching, velocity prediction, anti-merge logic, GIF/MP4 generation, etc.)
 │
-└── analysis/
-    ├── single_cell_fret_analysis.py #Contains all scripts for single-cell FRET extraction
+└── Single_cell_FRET/
+    ├── Single_cell_fret.py #Contains all scripts for single-cell FRET extraction
 
 ```
 
