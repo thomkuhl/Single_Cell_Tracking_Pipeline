@@ -37,7 +37,7 @@ FOV_XX/
 
 Example: adjust Sauvola parameters + ring thickness:
 
-```single_cell_fret.py
+```Single_cell_fret.py
 --mask-dir /path/to/FOV_40/Segmented
 --donor-dir /path/to/FOV_40/Donor
 --acceptor-dir /path/to/FOV_40/Acceptor
@@ -50,7 +50,7 @@ Example: adjust Sauvola parameters + ring thickness:
 
 Example: disable Sauvola gating:
 ```
-python fret_extract.py
+python Single_cell_fret.py
 --mask-dir /path/to/FOV_12/Segmented
 --donor-dir /path/to/FOV_12/Donor
 --acceptor-dir /path/to/FOV_12/Acceptor
@@ -60,7 +60,7 @@ python fret_extract.py
 
 Show all parameters:
 ```
-python fret_extract.py --help
+python Single_cell_fret.py --help
 ```
 
 
@@ -150,5 +150,3 @@ Each FRET row includes:
 ## 6. Citation
 
 If you use this code in a publication, please cite this repository in the Methods.
-
-tracks_tiff_<name>/ (optional TIFF track masks)
